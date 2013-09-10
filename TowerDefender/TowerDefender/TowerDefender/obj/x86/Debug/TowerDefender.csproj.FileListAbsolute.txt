@@ -5,3 +5,4 @@ C:\Users\LeonelPereaTrejo\Documents\Visual Studio 2010\Projects\TowerDefender\To
 C:\Users\LeonelPereaTrejo\Documents\Visual Studio 2010\Projects\TowerDefender\TowerDefender\TowerDefender\TowerDefender\obj\x86\Debug\TowerDefender.exe
 C:\Users\LeonelPereaTrejo\Documents\Visual Studio 2010\Projects\TowerDefender\TowerDefender\TowerDefender\TowerDefender\obj\x86\Debug\TowerDefender.pdb
 C:\Users\LeonelPereaTrejo\Documents\Visual Studio 2010\Projects\TowerDefender\TowerDefender\TowerDefender\TowerDefender\bin\x86\Debug\Content\volador.xnb
+C:\Users\LeonelPereaTrejo\Documents\Visual Studio 2010\Projects\TowerDefender\TowerDefender\TowerDefender\TowerDefender\bin\x86\Debug\Content\mapa.xnb

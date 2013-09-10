@@ -10,6 +10,15 @@
       <Output>C:\Users\LeonelPereaTrejo\Documents\Visual Studio 2010\Projects\TowerDefender\TowerDefender\TowerDefender\TowerDefender\bin\x86\Debug\Content\volador.xnb</Output>
       <Time>2013-09-10T12:24:26.4013677-05:00</Time>
     </Item>
+    <Item>
+      <Source>mapa.png</Source>
+      <Name>mapa</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\LeonelPereaTrejo\Documents\Visual Studio 2010\Projects\TowerDefender\TowerDefender\TowerDefender\TowerDefender\bin\x86\Debug\Content\mapa.xnb</Output>
+      <Time>2013-09-10T14:03:00.7538097-05:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

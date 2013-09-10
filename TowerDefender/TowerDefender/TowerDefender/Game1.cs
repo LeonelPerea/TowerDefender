@@ -24,6 +24,7 @@ namespace TowerDefender
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Alien alien;
+        Texture2D imagenMapa;
         int[] ruta = new int[5];
         direccion[] direccionRuta = new direccion[5];
         bool[] activo = new bool[5];
@@ -31,7 +32,7 @@ namespace TowerDefender
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
-            graphics.PreferredBackBufferHeight = 600;
+            graphics.PreferredBackBufferHeight = 800;
             graphics.PreferredBackBufferWidth = 1000;
 
             Content.RootDirectory = "Content";
@@ -46,7 +47,8 @@ namespace TowerDefender
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            alien = new Alien (new Vector2(0,0));
+            imagenMapa = this.Content.Load<Texture2D>("mapa");
+            alien = new Alien (new Vector2(0,100));
             ruta[0] = 300;
             direccionRuta[0] = direccion.derecha;
             activo[0] = true;
@@ -56,7 +58,7 @@ namespace TowerDefender
             ruta[2] = 200;
             direccionRuta[2] = direccion.derecha;
             activo[2] = false;
-            ruta[3] = 100;
+            ruta[3] = 150;
             direccionRuta[3] = direccion.arriba;
             activo[3] = false;
             ruta[4] = 250;
@@ -100,7 +102,7 @@ namespace TowerDefender
                 activo[2] = false;
                 activo[3] = true;
             }
-            if ((alien.PosicionActual.Y >= ruta[1] - ruta[3]) && activo[3])
+            if ((alien.PosicionActual.Y >= ruta[3]) && activo[3])
             {
                 alien.avanzar(1, direccion.arriba, gameTime);
             }
@@ -160,6 +162,7 @@ namespace TowerDefender
         {
             GraphicsDevice.Clear(Color.White);
             spriteBatch.Begin();
+            spriteBatch.Draw(imagenMapa, new Rectangle(0, 0,1000,800), Color.White);
             alien.dibujarAlien(this.spriteBatch);
             spriteBatch.End();
             // TODO: Add your drawing code here

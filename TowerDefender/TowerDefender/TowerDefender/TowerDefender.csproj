@@ -115,7 +115,6 @@
   <ItemGroup>
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png" />
-    <Content Include="volador.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TowerDefenderContent\TowerDefenderContent.contentproj">
